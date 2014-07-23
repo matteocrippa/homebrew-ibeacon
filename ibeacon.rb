@@ -3,7 +3,7 @@ require "formula"
 class Ibeacon < Formula
   homepage "https://github.com/hayashi311/ibeacon-cli"
   url "https://github.com/hayashi311/ibeacon-cli/archive/v1.0.0.tar.gz"
-  sha1 "2f2b635a1211950772c0ae5269b955c280b8fe73"
+  sha1 "dca79e1570840edaa6e4ceabb8a8433ef5e3f20a"
   head "https://github.com/hayashi311/ibeacon-cli.git"
 
   bottle do
