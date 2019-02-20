@@ -8,10 +8,10 @@ class Ibeacon < Formula
 
   bottle do
     cellar :any
-    sha256 "85ae0641476bcd12cd8982be18ca26245a495e522e2d66451c3dc7e9f4d21c48" => :mavericks
+    sha256 "85ae0641476bcd12cd8982be18ca26245a495e522e2d66451c3dc7e9f4d21c48" => :high_sierra
   end
 
-  depends_on :macos => :mavericks
+  depends_on :macos => :high_sierra
   depends_on :xcode => :build
 
   def install
