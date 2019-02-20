@@ -2,13 +2,13 @@ require "formula"
 
 class Ibeacon < Formula
   homepage "https://github.com/matteocrippa/ibeacon-cli"
-  url "https://github.com/matteocrippa/ibeacon-cli/archive/v1.0.0.tar.gz"
-  sha256 "85ae0641476bcd12cd8982be18ca26245a495e522e2d66451c3dc7e9f4d21c48"
+  url "https://github.com/matteocrippa/ibeacon-cli/archive/v1.0.1.tar.gz"
+  sha256 "fdfad7fee2dd84c7db040c70ae6be5ef8fa2abcb1c812d5cf9f4e4eea5533c1c"
   head "https://github.com/matteocrippa/ibeacon-cli.git"
 
   bottle do
     cellar :any
-    sha256 "85ae0641476bcd12cd8982be18ca26245a495e522e2d66451c3dc7e9f4d21c48" => :high_sierra
+    sha256 "fdfad7fee2dd84c7db040c70ae6be5ef8fa2abcb1c812d5cf9f4e4eea5533c1c" => :high_sierra
   end
 
   depends_on :macos => :high_sierra
